@@ -1,2 +1,2 @@
-# Hotel-Management
-Hotel Management System
+# Hospital-Management
+Hospital Management System
