@@ -15,7 +15,7 @@ const Contact = () => {
   };
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:5000/", {
+    const response = await fetch("https://hospital-management-backend-3mtd.onrender.com", {
       method: "POST",
       body: JSON.stringify(form),
       headers: { "Content-Type": "application/json" },
